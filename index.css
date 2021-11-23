@@ -1,0 +1,182 @@
+*{
+
+    margin: 0;
+}
+html,body{
+    height: 100%;
+
+}
+body {font-family: fantasy;
+background-color: blanchedalmond;
+
+}
+header{
+    display:block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(219, 194, 141);
+    padding: 10px;
+
+    }
+nav a:visited,
+nav a:link {
+    color: black;
+    text-decoration: none;
+
+
+}
+nav > ul {
+display: inline;
+padding: 0;
+
+}
+nav> ul > li{
+
+    display: inline;
+    list-style: none;
+    margin: 0 10px 0 10px;
+
+}
+main{
+    display: block;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    min-height: 100%;
+    background-image: url("images/vegetables-background.jpg");
+
+}
+
+
+footer{
+
+    padding: 15px;
+}
+aside, article {
+
+    padding: 2em;
+}
+aside{
+    text-align: center;
+   
+}
+article{
+    width: 50%;
+  
+}
+@media only screen and (min-width: 768px)
+{
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        } 
+}
+    aside{
+        margin-left: 2%;
+    }
+
+ .logo {
+     padding-top: 2cm;
+     max-width: 40%;
+     max-height: 40%;
+ }
+ h1{
+     font-size: 3em;
+     margin-top: .5 em;
+ }
+
+ .subtitulo{
+     
+     background-color: rgb(199, 236, 97);
+     padding: 10px;
+     margin-top: 5px;
+ }
+ /* contacto*/
+ .parrafo{
+     background-color: rgb(199, 236, 97);
+     padding: 10px;
+ }
+ /*catalogo*/
+
+ .element{
+     width: 250px;
+     padding: 10px;
+     margin: 10px;
+     background-color: khaki;
+     border: solid crimson;
+ }
+ .imagesfruta{
+     max-width: 100%;
+     max-height: 75%;
+ }
+ .elementinformation.title{
+     font-weight: bold;
+
+ }
+ .elementinformation.price{
+     text-align: right;
+ }
+ 
+ button, input, select  {
+     background-color: rgb(236, 205, 126);
+     padding: 10px;
+     border: solid rgb(207, 207, 11);
+     border-radius: 3px;
+ }
+ div:hover {
+    border: 1px coral;
+ }
+ .grid {
+     display: grid;
+     grid-template-columns: 33% 33% 33%;
+     grid-template-rows: auto;
+     gap: 5em;
+
+
+    }
+.index-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 18px;
+    padding-bottom: 0;
+}
+
+.base-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-index{
+        max-width: 100%;
+        max-height: 100%;
+    
+}
+
+.main-contact{
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.contact-container{
+}
+
+.logo-contact{
+    padding: 0;
+    margin-left: 40px;
+}
+ /*order*/
+
+.formulario-order{
+    background-color: rgb(199, 236, 97);
+
+    border-radius: 10px;
+
+}
+.button-order{
+    padding-top:20px;
+}
